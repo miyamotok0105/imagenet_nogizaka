@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Caltech101</title>
+</head>
+<body>
+<h4 style="text-align: center; font-family: helvetica,arial,sans-serif;"><span
+ style="text-decoration: underline;"><small><a
+ href="http://www.vision.caltech.edu/">COMPUTATIONAL VISION AT CALTECH</a></small><br>
+</span></h4>
+<h1 style="text-align: center;"><big><big>Caltech 101</big></big></h1>
+<div style="text-align: center;"><font size="+1"><big> <img src=new-b2.gif>
+<font size=+3><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech256/">Caltech256</a></font>
+<img src=new-b2.gif>
+<br><br>
+[<a href="#Description">Description</a> ][ <a href="#Download">Download</a> ][ <a href="#Discussion">Discussion</a>
+[<a href="http://www.vision.caltech.edu/html-files/archive.html">Other Datasets</a>]<br>
+<br>
+</big></font>
+<table style="width: 100%; text-align: left;" border="0" cellpadding="2"
+ cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img alt="Crocodile"
+ src="SamplePics/image_0001.jpg" style="width: 126px; height: 100px;"><br>
+      </td>
+      <td style="vertical-align: top;"><img alt="Camera"
+ src="SamplePics/image_0013.jpg" style="width: 90px; height: 100px;"><br>
+      </td>
+      <td style="vertical-align: top;"><img alt="Chair"
+ src="SamplePics/image_0014.jpg" style="width: 100px; height: 100px;"><br>
+      </td>
+      <td style="vertical-align: top;"><img alt="Airplane"
+ src="SamplePics/image_0022.jpg" style="width: 254px; height: 100px;"><br>
+      </td>
+      <td style="vertical-align: top;"><img alt="Soccer ball"
+ src="SamplePics/image_0028.jpg" style="width: 105px; height: 100px;"><br>
+      </td>
+      <td style="vertical-align: top;"><img alt="Elefant"
+ src="SamplePics/image_0031.jpg" style="width: 133px; height: 100px;"><br>
+      </td>
+      <td style="vertical-align: top;"><img alt="Brain"
+ src="SamplePics/image_0083.jpg" style="width: 124px; height: 100px;"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div style="color: rgb(0, 0, 0); text-align: left;">
+<!---<font size="+1"><br>
+We have collected a new data-set of 256 object categories!!</font></div>
+<h3 align="center"><i>*** New Expanded / Improved <a href="http://www.vision.caltech.edu/Image_Datasets/Caltech256/">Caltech 
+    256 </a>Category Data-Set ***</i></h3>
+  <h3 align="center"><i>Click Here to access the New Data-Set: <a href="http://www.vision.caltech.edu/Image_Datasets/Caltech256/">Caltech256</a></i></h3> --->
+  <h3><font face="Arial, Helvetica, sans-serif">Description</font></h3>
+  <p><font face="Arial, Helvetica, sans-serif">Pictures of objects belonging to 
+    101 categories. About 40 to 800 images per category. </font><font face="Arial, Helvetica, sans-serif">Most 
+    categories have about 50 images. Collected in September 2003 by Fei-Fei Li, 
+    Marco Andreetto, and Marc 'Aurelio Ranzato.&nbsp; The size of each image is 
+    roughly 300 x 200 pixels.<br>
+    We have carefully clicked outlines of each object in these pictures, these 
+    are included under the 'Annotations.tar'. There is also a matlab script to 
+    view the annotaitons, 'show_annotations.m'.</font><br>
+  </p>
+  <h3><font face="Arial, Helvetica, sans-serif">How to use the dataset</font></h3>
+  <p>If you are using the Caltech 101 dataset for testing your recognition algorithm 
+    you should try and make your results comparable to the results of others. 
+    We suggest training and testing on fixed number of pictures and repeating 
+    the experiment with different random selections of pictures in order to obtain 
+    error bars. Popular number of training images: 1, 3, 5, 10, 15, 20, 30. Popular 
+    numbers of testing images: 20, 30. See also the discussion below.<br>
+    When you report your results please keep track of which images you used and 
+    which were misclassified. We will soon publish a more detailed experimental 
+    protocol that allows you to report those details. See the Discussion section 
+    for more details.</p>
+  <h3><font face="Arial, Helvetica, sans-serif"><a name="Download"></a>Download 
+    </font></h3>
+  <p>Collection of pictures: <font face="Arial, Helvetica, sans-serif"><a
+ href="101_ObjectCategories.tar.gz">101_ObjectCategories.tar.gz (131Mbytes)</a><br>
+    </font></p>
+  <p>Outlines of the objects in the pictures: <font face="Arial, Helvetica, sans-serif">[1] 
+    <a
+ href="Annotations.tar">Annotations.tar </a> [2] <a
+ href="show_annotation.m"> show_annotation.m</a></font><font face="Arial, Helvetica, sans-serif"><br>
+    </font></p>
+  <h3><font face="Arial, Helvetica, sans-serif"><a name="Literature"></a>Literature</font></h3>
+  <p><font face="Arial, Helvetica, sans-serif">Papers reporting experiments on 
+    Caltech 101 images:<br>
+    <br>
+    </font><font style="font-family: helvetica,arial,sans-serif;"
+ face="Arial, Helvetica, sans-serif">1. <a
+ href="http://www.vision.caltech.edu/feifeili/Fei-Fei_GMBV04.pdf">Learning 
+    generative visual models from few training examples: an incremental Bayesian 
+    approach tested on 101 object categories.</a> L. Fei-Fei, R. Fergus, and P. Perona. CVPR 2004, Workshop on Generative-Model Based 
+    Vision. 2004</font><br>
+    <font size="+1"><b><br>
+    </b></font><font style="font-family: helvetica,arial,sans-serif;">2. Shape 
+    Matching and Object Recognition using Low Distortion Correspondence</font><a style="font-family: helvetica,arial,sans-serif;"
+ href="http://www.cs.berkeley.edu/%7Eaberg"><font color="black">. Alexander C. 
+    Berg</font></a><span
+ style="font-family: helvetica,arial,sans-serif;">, </span><a
+ style="font-family: helvetica,arial,sans-serif;"
+ href="http://www.cs.berkeley.edu/%7Emillert"><font color="black">Tamara L. Berg</font></a><span style="font-family: helvetica,arial,sans-serif;">, 
+    </span><a style="font-family: helvetica,arial,sans-serif;"
+ href="http://www.cs.berkeley.edu/%7Emalik"><font color="black">Jitendra Malik</font></a><a style="font-family: helvetica,arial,sans-serif;"
+ href="http://www.cs.berkeley.edu/%7Eaberg/"><i>. CVPR 2005</i></a></p>
+  <p><font style="font-family: helvetica,arial,sans-serif;">3. <a href="grauman_darrell_iccv05.pdf">The 
+    Pyramid Match Kernel:Discriminative Classification with Sets of Image Features</a>. 
+    K. Grauman and T. Darrell. International Conference on Computer Vision (ICCV), 
+    2005.</font></p>
+</div>
+<ul>
+  <li> 
+    <div style="color: rgb(0, 0, 0); text-align: left;">K. Grauman and T. Darrell. 
+      <a href="pyrmatch_MIT_CSAIL_TR_2006_020.pdf">Pyramid Match Kernels: Discriminative 
+      Classification with Sets of Image Features.</a> MIT-CSAIL-TR-2006-020. March 
+      18, 2006. ** Report demonstrates much stronger performance on the 101 using 
+      dense sampling as features. Also, in this report, results are normalized 
+      by the number of images in each class to make results comprable to other 
+      published results. **<br>
+    </div>
+  </li>
+</ul>
+<div style="color: rgb(0, 0, 0); text-align: left;"><font style="font-family: helvetica,arial,sans-serif;">4. 
+  <a href="http://www.its.caltech.edu/%7Eholub/publications.htm">Combining Generative 
+  Models and Fisher Kernels for Object Class Recognition </a> Holub, AD. Welling, 
+  M. Perona, P. International Conference on Computer Vision (ICCV), 2005.</font></div>
+<ul>
+  <li> 
+    <div style="color: rgb(0, 0, 0); text-align: left;"><font style="font-family: helvetica,arial,sans-serif;"><a href="http://www.its.caltech.edu/%7Eholub/publications.htm">Exploiting 
+      Unlabelled Data for Hybrid Object Classification.</a> Holub, AD. Welling, 
+      M. Perona, P. NIPS 2005 Workshop in Inter-Class Transfer.</font></div>
+  </li>
+</ul>
+<div style="color: rgb(0, 0, 0); text-align: left;"><font style="font-family: helvetica,arial,sans-serif;"> 
+  <p></p>
+  <p>5. Object Recognition with Features Inspired by Visual Cortex. T. Serre, 
+    L. Wolf and T. Poggio. Proceedings of 2005 IEEE Computer Society Conference 
+    on Computer Vision and Pattern Recognition (CVPR 2005), IEEE Computer Society 
+    Press, San Diego, June 2005.</p>
+  <p>6. <a href="nhz_cvpr06.pdf">SVM-KNN: Discriminative Nearest Neighbor Classification 
+    for Visual Category Recognition</a>. Hao Zhang, Alex Berg, Michael Maire, 
+    Jitendra Malik. CVPR, 2006.</p>
+  </font></div>
+<ul>
+  <li> 
+    <div style="color: rgb(0, 0, 0); text-align: left;">
+<font style="font-family: helvetica,arial,sans-serif;"> 
+      <a href="http://www.cs.berkeley.edu/%7Enhz/research/#svmnn">Link</a> to 
+      web-page describing results.</font><font style="font-family: helvetica,arial,sans-serif;"><br>
+      </font></div>
+  </li>
+</ul>
+<div style="color: rgb(0, 0, 0); text-align: left;"> 
+<font style="font-family: helvetica,arial,sans-serif;"> 
+  <p>7. <a href="cvpr06b_lana.pdf">Beyond Bags of Features: Spatial Pyramid Matching 
+    for Recognizing Natural Scene Categories.</a> Svetlana Lazebnik, Cordelia 
+    Schmid, and Jean Ponce. CVPR, 2006 (accepted).</p>
+  <p>8. 
+<a href="mjmarinVIP121505.pdf"> 
+    Empirical study of multi-scale filter banks for object categorization</a>, 
+M.J. Mar&iacute;n-Jim&eacute;nez, and N. P&eacute;rez de la Blanca.
+    December 2005. Tech Report.<br>
+  <p>9. 
+<a href=http://www.mit.edu/~jmutch/papers/cvpr2006_mutch_lowe.pdf>
+Multiclass Object Recognition with Sparse, Localized Features</a>, 
+Jim Mutch and David G. Lowe. , pg. 11-18, 
+CVPR 2006, IEEE Computer Society Press, New York, June 2006.<br>
+<br>
+10. <a href="http://vision.cs.princeton.edu/documents/WangZhangFei-Fei_CVPR2006.pdf">Using Dependant Regions or Object Categorization in a Generative Framework</a>, G. Wang, Y. Zhang, and L. Fei-Fei. IEEE Comp. Vis. Patt. Recog. 2006 <br>
+  </p>
+  </font></div>
+  <p><i>If you would like to add a paper, email <a
+ href="mailto:greg@vision.caltech.edu">greg@vision.caltech.edu</a> or <a href="mailto:holub@caltech.edu">holub@caltech.edu</a>.</i></p>
+  <p><font face="Arial, Helvetica, sans-serif"><b><font size="4">How to Reference 
+    this Dataset</font></b></font></p>
+  <p><font face="Arial, Helvetica, sans-serif">We would appreciate it if you cite 
+    our works when using the dataset:<br>
+    1. Images only:</font><font face="Arial, Helvetica, sans-serif"><br>
+    <font size="-1">L. Fei-Fei, R. Fergus and P. Perona.<i> Learning generative 
+    visual models<br>
+    from few training examples: an incremental Bayesian approach tested on<br>
+    101 object categories</i>. IEEE. CVPR 2004, Workshop on Generative-Model<br>
+    Based Vision. 2004</font></font></p>
+  <p><font face="Arial, Helvetica, sans-serif">2. Images and annotations:</font><br>
+    L. Fei-Fei, R. Fergus and P. Perona.<i> <font size="-1">One-Shot learning 
+    of object<br>
+    categories</font>.</i> IEEE Trans. Pattern Recognition and Machine Intelligence. 
+    In<br>
+    press.</p>
+  <h3><font face="Arial, Helvetica, sans-serif"><a name="Discussion"></a>Discussion</font></h3>
+  <table style="width: 100%; text-align: left;" border="1" cellpadding="2"
+ cellspacing="2" width="99%" height="2490">
+    <tbody> 
+    <tr> 
+      <td style="vertical-align: top;" width="54%" height="638"><a href="averages100objects.jpg"><img
+ alt="Caltech101 averages small" src="averages100objects-small.jpg"
+ style="border: 0px solid ; width: 256px; height: 217px;"></a></td>
+      <td style="vertical-align: top;" width="46%" height="638">Most images have 
+        little or no clutter. The objects tend to be centered in each image. Most 
+        objects are presented in a stereotypical pose.<br>
+        <br>
+        <a href="http://web.mit.edu/torralba/www/">Antonio Torralba</a> averaged 
+        the images of each category producing this composite image. Click on the 
+        image to obtain an enlarged version: how many categories can you recognize 
+        from their average?<br>
+        <br>
+        If you wish to demonstrate that your algorithm is translation-invariant 
+        and robust to clutter you will probably need to design carefully the procedure 
+        for training and testing. One possibility is creating panels composed 
+        of 2x2 or 3x3 pictures. Only one of the pictures in the panel belongs 
+        to a given class. The other pictures are taken from random classes, or 
+        perhaps from an independent collection of pictures.<br>
+        <br>
+        <div style="text-align: right;">17 March 2005<br>
+        </div>
+      </td>
+    </tr>
+    <tr> 
+      <td style="vertical-align: top; text-align: center;" width="54%" height="696"><big><span
+ style="font-weight: bold;"><br>
+        <br>
+        On reporting error rates</span></big><br>
+      </td>
+      <td style="vertical-align: top;" width="46%" height="696">It has been pointed 
+        out to us that the categories that have more pictures are somewhat easier 
+        (e.g. Airplanes (800+), Motorcycles(800+), Faces(400+)), while other categories 
+        have under 40 images and are more difficult. So: people reporting aggregate 
+        testing results should be careful to normalize performance across categories:<br>
+        a)&nbsp; either you test on all the available images, but then average 
+        error rates across categories<br>
+        b) or you test on a fixed number (e.g. 20) images per category and then 
+        report the overall error rate<br>
+        If you report the overall error rate on all tested images, with different 
+        numbers of images per category, your results will tend to be too optimistic.<br>
+        <div style="text-align: right;">6 October 2005<br>
+        </div>
+      </td>
+    </tr>
+    <tr> 
+      <td style="vertical-align: top;" width="54%" height="293"><img src="101_perf.jpg" width="346" height="272"><br>
+      </td>
+      <td style="vertical-align: top;" width="46%" height="293"> 
+        <p>Reported performance on the Caltech101 by various authors. There are 
+          several interesting things to note about this plot: (1) performance 
+          increases when all testing examples are used (the red curve is higher 
+          than the blue curve) and the performance is not normalized over all 
+          categories. (2) performance increases as more training examples are 
+          used. For these reasons authors should be careful when reporting results, 
+          in particular specifiying the exact training / testing paradigm used, 
+          and only comparing comprable setups.</p>
+        <p>A more detailed explanantion of the results can be found in the paper: 
+          Holub, AD. Welling, M. Perona, P. <a href="http://www.its.caltech.edu/%7Eholub/publications.htm">Exploiting 
+          Unlabelled Data for Hybrid Object Classification.</a> NIPS 2005 Workshop 
+          in Inter-Class Transfer.</p>
+        <p><br>
+        </p>
+      </td>
+    </tr>
+    <tr> 
+      <td style="vertical-align: top;" width="54%" height="363"><img src="fig_perf_101_published.png" width="345" height="267"></td>
+      <td style="vertical-align: top;" width="46%" height="363"> 
+        <p>Latest results (March 2006) on the Caltech 101 from a variety of groups. 
+          (published results only).</p>
+        <p>If you would like to include your algorithm's performance please email 
+          us at holub@caltech.edu or greg@vision.caltech.edu with a citation and 
+          your results. Thanks!</p>
+        <p>We are also interested in the time it takes to run your algorithm. 
+          Both during the training and during the classification stage</p>
+        <p>Plot courtesy of Hao Zhang.</p>
+        <p>&nbsp;</p>
+        <p>Update by holub, April 2006.</p>
+      </td>
+    </tr>
+    </tbody> 
+  </table>
+  <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script><script type="text/javascript">_uacct = "UA-973176-1";urchinTracker();</script>
+    Last updated: April 5, 2006 by holub@caltech.edu.</p>
+  <p>Maintained by holub@caltech.edu and greg@vision.caltech.edu<br>
+    <br>
+  </p>
+  <p> </p>
+</div>
+</body>
+</html>
